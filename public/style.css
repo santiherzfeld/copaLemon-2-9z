@@ -11,7 +11,7 @@ body{
 #video-background-pc {
     position: fixed;
     z-index: -1;
-    height: 100%; 
+    height: 130%; 
     top: 0;
     left: 0;
 }
@@ -38,13 +38,18 @@ img{
     
 }
 
-.img-pasos{
+.img-pasos, .img-pasos-dos{
     width:120px;
     margin-top: 20px;
 }
 
 .div-discord{
     margin-top: 60px;
+}
+
+#sumateLemon{
+    width: 300px;
+    margin-top: 30px;
 }
 
 .img-discord{
@@ -129,6 +134,10 @@ img{
         width:150px;
     }
 
+    .img-pasos-dos{
+        width: 165px;
+    }
+
     .sub-div-pasos{
         width: 220px;
     } 
@@ -143,6 +152,11 @@ img{
 
     .transicion:hover{
         transform: scale(1.1);
+    }
+
+    #sumateLemon{
+        margin-top: 10px;
+        width: 220px;
     }
 
     .div-discord{
