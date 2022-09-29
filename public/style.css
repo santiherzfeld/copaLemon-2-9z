@@ -107,6 +107,7 @@ img{
 
     main{
         margin: 0;
+        width: 95%;
     }
 
     .img-logo{
@@ -127,7 +128,7 @@ img{
     }
 
     .div-inscripciones{
-        width: 520px;
+        width: 450px;
     }
 
     .img-pasos{
@@ -168,4 +169,10 @@ img{
         margin: 0;
     }
 
+}
+
+@media screen and (min-width:1200px) {
+    .div-inscripciones{
+        width: 520px;
+    }
 }
