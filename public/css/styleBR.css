@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#video-background-pc {
+    position: fixed;
+    z-index: -1;
+    height: 130%; 
+    top: 0;
+    left: 0;
+}
+
+.idioma{
+    position: fixed;
+    width: 50px;
+    right: 0;
+    top: 0;
+    padding: 5px 5px 1px;
+    background-color: #35fd46;
+    border-radius: 50%;
+    transition: .3s;
+    margin: 10px 10px 0 0;
+}
+
+.idioma:hover{
+    background-color: black;
+    transform: scale(1.1);
+}
+
+main{
+    width: 85%;
+    margin: 30px 0;
+}
+
+img{
+    width: 100%;
+}
+
+.firts-div, .second-div, .third-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+} 
+
+.img-logo{
+    width: 220px;
+    
+}
+
+.img-pasos, .img-pasos-dos{
+    width:120px;
+    margin-top: 20px;
+}
+
+.div-discord{
+    margin-top: 60px;
+}
+
+#sumateLemon{
+    width: 300px;
+    margin-top: 30px;
+}
+
+.img-discord{
+    margin: 5px 0;
+}
+
+@media screen and (min-width:700px) {
+    .img-logo{
+        width: 300px;
+    }
+
+    .div-pasos{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sub-div-pasos{
+        width: 250px;
+    } 
+
+    .sub-div-pasos-2{
+        width: 310px;
+    } 
+
+    .third-div{
+        margin-top: 70px;
+        flex-direction: row;
+    }
+
+    .z-logo{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+
+    #video-background-pc{
+        position: fixed;
+        z-index: -1;
+        height: auto; 
+        min-width: 100%;
+        min-height: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+} 
+
+    body{
+        height: 100vh;
+        align-items: none;
+        justify-content: none;
+        margin: none;
+    }
+
+    main{
+        margin: 0;
+        width: 95%;
+    }
+
+    .img-logo{
+        width: 220px;
+        padding: 50px 0 0 0;
+    }
+    
+    .firts-div{
+        height: 20vh;
+        margin: 0;
+    }
+
+    .second-div{
+        flex-direction: row;
+        height: 60vh;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .div-inscripciones{
+        width: 450px;
+    }
+
+    .img-pasos{
+        width:168px;
+    }
+
+    .registrar{
+        width: 240px;
+    }
+
+    .registrarDos{
+        width: 240px;
+    }
+
+    .img-pasos-dos{
+        width: 165px;
+    }
+
+    .sub-div-pasos{
+        width: 220px;
+    } 
+
+    .sub-div-pasos-2{
+        width: 240px;
+    } 
+
+    .transicion{
+        transition: .3s;
+    }
+
+    .transicion:hover{
+        transform: scale(1.1);
+    }
+
+    #sumateLemon{
+        margin-top: 10px;
+        width: 220px;
+    }
+
+    .div-discord{
+        width: 400px;
+    }
+    
+    .third-div{
+        height: 20vh;
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .div-inscripciones{
+        width: 500px;
+    }
+}
