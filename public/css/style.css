@@ -82,7 +82,9 @@ img{
         width: 100%;
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
     }
+
 
     .sub-div-pasos{
         width: 250px;
@@ -148,12 +150,27 @@ img{
         width: 450px;
     }
 
+    .div-pasos{
+        margin-left: -400px;
+    }
+
+    .registrar{
+        height: 50px;
+        width: auto;
+    }
+
+    .registrarDos{
+        width: 600px;
+    }
+
     .img-pasos{
-        width:150px;
+        width:auto;
+        height: 40px;
     }
 
     .img-pasos-dos{
-        width: 165px;
+        width:auto;
+        height: 40px;
     }
 
     .sub-div-pasos{
@@ -178,7 +195,13 @@ img{
     }
 
     .div-discord{
-        width: 400px;
+        width: 800px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .img-discord{
+        width: 350px;
     }
     
     .third-div{
