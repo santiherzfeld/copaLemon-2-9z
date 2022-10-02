@@ -69,6 +69,12 @@ img{
     margin-top: 30px;
 }
 
+.boton-br{
+    margin: 10px 0 0 2px;
+    width: 280px;
+    height: auto;
+}
+
 .img-discord{
     margin: 5px 0;
 }
@@ -101,6 +107,16 @@ img{
     .z-logo{
         margin-right: 20px;
     }
+
+    .firts-div{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #br-ds{
+        width: 310px;
+        margin: -3px 0 0 0;
+    }
 }
 
 @media screen and (min-width:1000px) {
@@ -132,6 +148,11 @@ img{
         width: 360px;
         padding: 50px 0 0 0;
     }
+
+    #br-ds{
+        width: 380px;
+        margin: -2px 0 0 20px;
+    }
     
     .firts-div{
         height: 20vh;
@@ -152,6 +173,12 @@ img{
     .registrar{
         height: 45px;
         width: auto;
+    }
+
+    .boton-br{
+        margin: 10px 0 0 2px;
+        width: auto;
+        height: auto;
     }
 
     .registrarDos{
